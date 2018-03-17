@@ -13,9 +13,14 @@
 		51D0EF8C205D556C00E0BE8A /* BreakingTheCycle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51D0EF8A205D556C00E0BE8A /* BreakingTheCycle.xcdatamodeld */; };
 		51D0EF8E205D556C00E0BE8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51D0EF8D205D556C00E0BE8A /* Assets.xcassets */; };
 		51D0EF91205D556C00E0BE8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51D0EF8F205D556C00E0BE8A /* LaunchScreen.storyboard */; };
+		51D0EF99205D574500E0BE8A /* BankingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D0EF98205D574500E0BE8A /* BankingDataModel.swift */; };
+		827F22834326EB6AD3C3AB1B /* Pods_BreakingTheCycle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225EC74364AE719FDF8F4315 /* Pods_BreakingTheCycle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		225EC74364AE719FDF8F4315 /* Pods_BreakingTheCycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BreakingTheCycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		365357A84A69D24B87825B48 /* Pods-BreakingTheCycle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakingTheCycle.release.xcconfig"; path = "Pods/Target Support Files/Pods-BreakingTheCycle/Pods-BreakingTheCycle.release.xcconfig"; sourceTree = "<group>"; };
+		3FC08A2ECDAA050A61870AFF /* Pods-BreakingTheCycle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakingTheCycle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BreakingTheCycle/Pods-BreakingTheCycle.debug.xcconfig"; sourceTree = "<group>"; };
 		51D0EF80205D556B00E0BE8A /* BreakingTheCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakingTheCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D0EF83205D556B00E0BE8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51D0EF85205D556B00E0BE8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		51D0EF8D205D556C00E0BE8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51D0EF90205D556C00E0BE8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51D0EF92205D556C00E0BE8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51D0EF98205D574500E0BE8A /* BankingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankingDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				827F22834326EB6AD3C3AB1B /* Pods_BreakingTheCycle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				51D0EF82205D556B00E0BE8A /* BreakingTheCycle */,
 				51D0EF81205D556B00E0BE8A /* Products */,
+				C47C72E88E5C5AD6D46DB41D /* Pods */,
+				D96C329A50D600BF070A5A8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +67,7 @@
 			children = (
 				51D0EF83205D556B00E0BE8A /* AppDelegate.swift */,
 				51D0EF85205D556B00E0BE8A /* ViewController.swift */,
+				51D0EF98205D574500E0BE8A /* BankingDataModel.swift */,
 				51D0EF87205D556B00E0BE8A /* Main.storyboard */,
 				51D0EF8D205D556C00E0BE8A /* Assets.xcassets */,
 				51D0EF8F205D556C00E0BE8A /* LaunchScreen.storyboard */,
@@ -67,6 +77,23 @@
 			path = BreakingTheCycle;
 			sourceTree = "<group>";
 		};
+		C47C72E88E5C5AD6D46DB41D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FC08A2ECDAA050A61870AFF /* Pods-BreakingTheCycle.debug.xcconfig */,
+				365357A84A69D24B87825B48 /* Pods-BreakingTheCycle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D96C329A50D600BF070A5A8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				225EC74364AE719FDF8F4315 /* Pods_BreakingTheCycle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51D0EF95205D556C00E0BE8A /* Build configuration list for PBXNativeTarget "BreakingTheCycle" */;
 			buildPhases = (
+				0616F39D730901C2C8E16E22 /* [CP] Check Pods Manifest.lock */,
 				51D0EF7C205D556B00E0BE8A /* Sources */,
 				51D0EF7D205D556B00E0BE8A /* Frameworks */,
 				51D0EF7E205D556B00E0BE8A /* Resources */,
+				5778C3C7CE3EEB9512B580CF /* [CP] Embed Pods Frameworks */,
+				BBC61E4EE1EC0B3D47E401E1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,11 +164,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0616F39D730901C2C8E16E22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BreakingTheCycle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5778C3C7CE3EEB9512B580CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BreakingTheCycle/Pods-BreakingTheCycle-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BreakingTheCycle/Pods-BreakingTheCycle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBC61E4EE1EC0B3D47E401E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BreakingTheCycle/Pods-BreakingTheCycle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		51D0EF7C205D556B00E0BE8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51D0EF99205D574500E0BE8A /* BankingDataModel.swift in Sources */,
 				51D0EF8C205D556C00E0BE8A /* BreakingTheCycle.xcdatamodeld in Sources */,
 				51D0EF86205D556B00E0BE8A /* ViewController.swift in Sources */,
 				51D0EF84205D556B00E0BE8A /* AppDelegate.swift in Sources */,
@@ -276,6 +363,7 @@
 		};
 		51D0EF96205D556C00E0BE8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FC08A2ECDAA050A61870AFF /* Pods-BreakingTheCycle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +379,7 @@
 		};
 		51D0EF97205D556C00E0BE8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 365357A84A69D24B87825B48 /* Pods-BreakingTheCycle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
