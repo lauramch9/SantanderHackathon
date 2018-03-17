@@ -67,14 +67,30 @@
 			children = (
 				51D0EF83205D556B00E0BE8A /* AppDelegate.swift */,
 				51D0EF85205D556B00E0BE8A /* ViewController.swift */,
-				51D0EF98205D574500E0BE8A /* BankingDataModel.swift */,
-				51D0EF87205D556B00E0BE8A /* Main.storyboard */,
+				51D0EF9A205D87E500E0BE8A /* Model */,
+				51D0EF9B205D880500E0BE8A /* View */,
 				51D0EF8D205D556C00E0BE8A /* Assets.xcassets */,
 				51D0EF8F205D556C00E0BE8A /* LaunchScreen.storyboard */,
 				51D0EF92205D556C00E0BE8A /* Info.plist */,
 				51D0EF8A205D556C00E0BE8A /* BreakingTheCycle.xcdatamodeld */,
 			);
 			path = BreakingTheCycle;
+			sourceTree = "<group>";
+		};
+		51D0EF9A205D87E500E0BE8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				51D0EF98205D574500E0BE8A /* BankingDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51D0EF9B205D880500E0BE8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51D0EF87205D556B00E0BE8A /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		C47C72E88E5C5AD6D46DB41D /* Pods */ = {
