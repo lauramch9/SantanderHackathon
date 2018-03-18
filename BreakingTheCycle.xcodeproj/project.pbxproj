@@ -14,6 +14,26 @@
 		51D0EF8E205D556C00E0BE8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51D0EF8D205D556C00E0BE8A /* Assets.xcassets */; };
 		51D0EF91205D556C00E0BE8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51D0EF8F205D556C00E0BE8A /* LaunchScreen.storyboard */; };
 		51D0EF99205D574500E0BE8A /* BankingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D0EF98205D574500E0BE8A /* BankingDataModel.swift */; };
+		51D0EFAB205E7D8000E0BE8A /* UIViewXRadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D0EFA1205E7D8000E0BE8A /* UIViewXRadialGradient.swift */; };
+		51D0EFAC205E7D8000E0BE8A /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D0EFA2205E7D8000E0BE8A /* UITextFieldX.swift */; };
+		51D0EFAD205E7D8000E0BE8A /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D0EFA3205E7D8000E0BE8A /* UIButtonX.swift */; };
+		51D0EFAE205E7D8000E0BE8A /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D0EFA4205E7D8000E0BE8A /* UILabelX.swift */; };
+		51D0EFAF205E7D8000E0BE8A /* UIViewAnchorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D0EFA5205E7D8000E0BE8A /* UIViewAnchorPoint.swift */; };
+		51D0EFB0205E7D8000E0BE8A /* UIViewControllerX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D0EFA6205E7D8000E0BE8A /* UIViewControllerX.swift */; };
+		51D0EFB1205E7D8000E0BE8A /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D0EFA7205E7D8000E0BE8A /* UIImageViewX.swift */; };
+		51D0EFB2205E7D8000E0BE8A /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D0EFA8205E7D8000E0BE8A /* UIViewX.swift */; };
+		51D0EFB3205E7D8000E0BE8A /* UIVisualEffectViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D0EFA9205E7D8000E0BE8A /* UIVisualEffectViewX.swift */; };
+		51D0EFB4205E7D8000E0BE8A /* UISliderX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D0EFAA205E7D8000E0BE8A /* UISliderX.swift */; };
+		51D0EFB6205E803800E0BE8A /* ConnectToBankViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D0EFB5205E803800E0BE8A /* ConnectToBankViewViewController.swift */; };
+		51D0EFB8205E814600E0BE8A /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D0EFB7205E814600E0BE8A /* MainScreenViewController.swift */; };
+		51D0EFBA205E831D00E0BE8A /* SeeMySavingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D0EFB9205E831D00E0BE8A /* SeeMySavingsViewController.swift */; };
+		51D0EFBC205E84C000E0BE8A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D0EFBB205E84C000E0BE8A /* Extensions.swift */; };
+		51D0EFBE205E871B00E0BE8A /* HabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D0EFBD205E871B00E0BE8A /* HabitsViewController.swift */; };
+		51D0EFC0205E891800E0BE8A /* SuggestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D0EFBF205E891800E0BE8A /* SuggestionsViewController.swift */; };
+		51D0EFC4205E91BA00E0BE8A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D0EFC3205E91B900E0BE8A /* TableViewCell.swift */; };
+		51D0EFC6205E93F700E0BE8A /* PlanSavingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D0EFC5205E93F700E0BE8A /* PlanSavingsTableViewController.swift */; };
+		51D0EFC8205EA18200E0BE8A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D0EFC7205EA18200E0BE8A /* ResultViewController.swift */; };
+		51D0EFCA205EA6C200E0BE8A /* AfterAWhileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D0EFC9205EA6C200E0BE8A /* AfterAWhileViewController.swift */; };
 		827F22834326EB6AD3C3AB1B /* Pods_BreakingTheCycle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225EC74364AE719FDF8F4315 /* Pods_BreakingTheCycle.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +50,26 @@
 		51D0EF90205D556C00E0BE8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51D0EF92205D556C00E0BE8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51D0EF98205D574500E0BE8A /* BankingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankingDataModel.swift; sourceTree = "<group>"; };
+		51D0EFA1205E7D8000E0BE8A /* UIViewXRadialGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewXRadialGradient.swift; sourceTree = "<group>"; };
+		51D0EFA2205E7D8000E0BE8A /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		51D0EFA3205E7D8000E0BE8A /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		51D0EFA4205E7D8000E0BE8A /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
+		51D0EFA5205E7D8000E0BE8A /* UIViewAnchorPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAnchorPoint.swift; sourceTree = "<group>"; };
+		51D0EFA6205E7D8000E0BE8A /* UIViewControllerX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerX.swift; sourceTree = "<group>"; };
+		51D0EFA7205E7D8000E0BE8A /* UIImageViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewX.swift; sourceTree = "<group>"; };
+		51D0EFA8205E7D8000E0BE8A /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		51D0EFA9205E7D8000E0BE8A /* UIVisualEffectViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVisualEffectViewX.swift; sourceTree = "<group>"; };
+		51D0EFAA205E7D8000E0BE8A /* UISliderX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderX.swift; sourceTree = "<group>"; };
+		51D0EFB5205E803800E0BE8A /* ConnectToBankViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectToBankViewViewController.swift; sourceTree = "<group>"; };
+		51D0EFB7205E814600E0BE8A /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		51D0EFB9205E831D00E0BE8A /* SeeMySavingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeMySavingsViewController.swift; sourceTree = "<group>"; };
+		51D0EFBB205E84C000E0BE8A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		51D0EFBD205E871B00E0BE8A /* HabitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsViewController.swift; sourceTree = "<group>"; };
+		51D0EFBF205E891800E0BE8A /* SuggestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsViewController.swift; sourceTree = "<group>"; };
+		51D0EFC3205E91B900E0BE8A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		51D0EFC5205E93F700E0BE8A /* PlanSavingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanSavingsTableViewController.swift; sourceTree = "<group>"; };
+		51D0EFC7205EA18200E0BE8A /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		51D0EFC9205EA6C200E0BE8A /* AfterAWhileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterAWhileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +106,14 @@
 			isa = PBXGroup;
 			children = (
 				51D0EF83205D556B00E0BE8A /* AppDelegate.swift */,
-				51D0EF85205D556B00E0BE8A /* ViewController.swift */,
+				51D0EF9F205E6AA500E0BE8A /* Controller */,
 				51D0EF9A205D87E500E0BE8A /* Model */,
 				51D0EF9B205D880500E0BE8A /* View */,
 				51D0EF8D205D556C00E0BE8A /* Assets.xcassets */,
 				51D0EF8F205D556C00E0BE8A /* LaunchScreen.storyboard */,
 				51D0EF92205D556C00E0BE8A /* Info.plist */,
 				51D0EF8A205D556C00E0BE8A /* BreakingTheCycle.xcdatamodeld */,
+				51D0EFA0205E7D8000E0BE8A /* DesignableX */,
 			);
 			path = BreakingTheCycle;
 			sourceTree = "<group>";
@@ -91,6 +132,41 @@
 				51D0EF87205D556B00E0BE8A /* Main.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		51D0EF9F205E6AA500E0BE8A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51D0EF85205D556B00E0BE8A /* ViewController.swift */,
+				51D0EFB5205E803800E0BE8A /* ConnectToBankViewViewController.swift */,
+				51D0EFB7205E814600E0BE8A /* MainScreenViewController.swift */,
+				51D0EFB9205E831D00E0BE8A /* SeeMySavingsViewController.swift */,
+				51D0EFBD205E871B00E0BE8A /* HabitsViewController.swift */,
+				51D0EFBF205E891800E0BE8A /* SuggestionsViewController.swift */,
+				51D0EFC5205E93F700E0BE8A /* PlanSavingsTableViewController.swift */,
+				51D0EFC7205EA18200E0BE8A /* ResultViewController.swift */,
+				51D0EFC9205EA6C200E0BE8A /* AfterAWhileViewController.swift */,
+				51D0EFC3205E91B900E0BE8A /* TableViewCell.swift */,
+				51D0EFBB205E84C000E0BE8A /* Extensions.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		51D0EFA0205E7D8000E0BE8A /* DesignableX */ = {
+			isa = PBXGroup;
+			children = (
+				51D0EFA1205E7D8000E0BE8A /* UIViewXRadialGradient.swift */,
+				51D0EFA2205E7D8000E0BE8A /* UITextFieldX.swift */,
+				51D0EFA3205E7D8000E0BE8A /* UIButtonX.swift */,
+				51D0EFA4205E7D8000E0BE8A /* UILabelX.swift */,
+				51D0EFA5205E7D8000E0BE8A /* UIViewAnchorPoint.swift */,
+				51D0EFA6205E7D8000E0BE8A /* UIViewControllerX.swift */,
+				51D0EFA7205E7D8000E0BE8A /* UIImageViewX.swift */,
+				51D0EFA8205E7D8000E0BE8A /* UIViewX.swift */,
+				51D0EFA9205E7D8000E0BE8A /* UIVisualEffectViewX.swift */,
+				51D0EFAA205E7D8000E0BE8A /* UISliderX.swift */,
+			);
+			path = DesignableX;
 			sourceTree = "<group>";
 		};
 		C47C72E88E5C5AD6D46DB41D /* Pods */ = {
@@ -241,10 +317,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51D0EFB3205E7D8000E0BE8A /* UIVisualEffectViewX.swift in Sources */,
+				51D0EFBC205E84C000E0BE8A /* Extensions.swift in Sources */,
+				51D0EFBA205E831D00E0BE8A /* SeeMySavingsViewController.swift in Sources */,
+				51D0EFAC205E7D8000E0BE8A /* UITextFieldX.swift in Sources */,
 				51D0EF99205D574500E0BE8A /* BankingDataModel.swift in Sources */,
 				51D0EF8C205D556C00E0BE8A /* BreakingTheCycle.xcdatamodeld in Sources */,
+				51D0EFAF205E7D8000E0BE8A /* UIViewAnchorPoint.swift in Sources */,
+				51D0EFB4205E7D8000E0BE8A /* UISliderX.swift in Sources */,
+				51D0EFC0205E891800E0BE8A /* SuggestionsViewController.swift in Sources */,
+				51D0EFC8205EA18200E0BE8A /* ResultViewController.swift in Sources */,
+				51D0EFAD205E7D8000E0BE8A /* UIButtonX.swift in Sources */,
+				51D0EFB2205E7D8000E0BE8A /* UIViewX.swift in Sources */,
+				51D0EFB0205E7D8000E0BE8A /* UIViewControllerX.swift in Sources */,
+				51D0EFCA205EA6C200E0BE8A /* AfterAWhileViewController.swift in Sources */,
 				51D0EF86205D556B00E0BE8A /* ViewController.swift in Sources */,
+				51D0EFAB205E7D8000E0BE8A /* UIViewXRadialGradient.swift in Sources */,
+				51D0EFB6205E803800E0BE8A /* ConnectToBankViewViewController.swift in Sources */,
 				51D0EF84205D556B00E0BE8A /* AppDelegate.swift in Sources */,
+				51D0EFC6205E93F700E0BE8A /* PlanSavingsTableViewController.swift in Sources */,
+				51D0EFC4205E91BA00E0BE8A /* TableViewCell.swift in Sources */,
+				51D0EFB8205E814600E0BE8A /* MainScreenViewController.swift in Sources */,
+				51D0EFAE205E7D8000E0BE8A /* UILabelX.swift in Sources */,
+				51D0EFB1205E7D8000E0BE8A /* UIImageViewX.swift in Sources */,
+				51D0EFBE205E871B00E0BE8A /* HabitsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
